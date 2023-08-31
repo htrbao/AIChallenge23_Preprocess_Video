@@ -33,7 +33,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description='Get frames from video')
     parser.add_argument('--input_path', type=str, default='Videos', help='input directory of videos')
-    parser.add_argument('--output_trim_path', type=str, default='Trim', help='output directory of trimed videos')
+    parser.add_argument('--output_trim_path', type=str, default='Trims', help='output directory of trimed videos')
     parser.add_argument('--output_frame_path', type=str, default='Frames', help='output directory of sampled frames')
     args = parser.parse_args()
 
